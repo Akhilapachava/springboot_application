@@ -27,7 +27,7 @@ public class Dept_controller {
 	}
     
     @GetMapping(value = "/Getdata")
-	public List<Dept_entity> getDetail() {
+	public Object getDetail() {
 		return dept_service.getDetails();
 
 	}
